@@ -6,7 +6,7 @@ const years = {
   year: 2023
 }
 /* GET home page. */
-router.get('/', function(req, res) {
+router.get('/year', function(req, res) {
   res.json({year: years.year})
 });
 
